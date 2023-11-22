@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "markdown to html converter"
+version = "0.1.0"
+description = ""
+authors = ["Ryota Fujimura <ryotaajishio0626@icloud.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+markdown = "^3.5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
