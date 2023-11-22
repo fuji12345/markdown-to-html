@@ -9,7 +9,7 @@ class MarkdownToHtml:
         self.output_path = output_path
 
         if not self.input_path.exists():
-            return print("input file do not exist")
+            raise Exception("input file do not exist")
 
         self.output_path.parent.mkdir(exist_ok=True, parents=True)
 

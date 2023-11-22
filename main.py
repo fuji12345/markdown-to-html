@@ -9,7 +9,7 @@ def main(args):
         command_name = getattr(command, args.command)(args.input_path, args.output_path)
         command_name.run()
     else:
-        return print("Command not found")
+        raise Exception("Command not found")
 
 
 if __name__ == "__main__":
