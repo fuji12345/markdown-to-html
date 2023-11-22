@@ -17,10 +17,5 @@ poetry shell
 
 - 実行
 ```bash
-python main.py
-```
-
-- 引数について
-```bash
 python main.py --input-path {マークダウンのファイルがあるパス} --output-path {作成したHTMLファイルを置くパス}
 ```
